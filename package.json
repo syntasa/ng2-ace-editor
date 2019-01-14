@@ -7,6 +7,10 @@
     "minify": "uglifyjs dist/bundles/ng2-ace-editor.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ng2-ace-editor.umd.min.js",
     "build": "npm run transpile && npm run package && npm run minify"
   },
+  "dependencies": {
+    "ace-builds": "^1.4.2",
+    "brace": "^0.11.1"
+  },
   "devDependencies": {
     "@angular/common": "^6.0.0",
     "@angular/compiler": "^6.0.0",
